@@ -27,7 +27,7 @@ include(CTest)    # 启用 CTest 框架
 enable_testing()  # 允许 add_test() 添加测试
 
 # 添加子目录
-add_subdirectory(dep)
+add_subdirectory(3rd/Catch2)
 add_subdirectory(src)
 add_subdirectory(tests)
 
