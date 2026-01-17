@@ -1,11 +1,11 @@
 #define CATCH_CONFIG_MAIN
 #include <algorithm>
-#include <catch.hpp>
 #include <stdexcept>
 #include <string>
 #include <vector>
 
 #include "add.h"
+#include "catch2/catch.hpp"
 
 // 第一个测试用例，标签为 [add]，用于测试 add 函数的多种情况
 TEST_CASE("testadd", "[add]") {
